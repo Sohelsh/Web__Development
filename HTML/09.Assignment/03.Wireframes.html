@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wirefremes</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-size: cover;
+        }
+        header{
+            padding: 25px;
+            background-color: black;
+        }
+        header>a{
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px;
+            color: azure;
+        }
+        a:hover{
+            background-color: white;
+            color: black;
+        }
+        header>.logo{
+            float: right;
+            margin: 0;
+        }
+        .main-div{
+            width: 100%;
+            height: 800px;
+            display: inline-block;
+            position: relative;
+           
+        }
+        .sidebar-div{
+            height: 900px;
+            width: 30%;
+            display: inline-block;
+            position: absolute;
+        }
+        .bodyarea-div{
+            height: 1005px;
+            width: 69%;
+            display: inline-block;
+            position: sticky;
+            left: 450px;
+        }
+        .img1{
+            width: 390px;
+            margin: 10px;
+            height: 350px;
+            margin-top: auto;
+           
+        }
+        .imgdes{
+            width: 390px;
+            margin: 10px;
+            height: 500px;
+        }
+        .img2des{
+            height: 500px;
+        }
+        .img2des th{
+            width: 20%;
+            height: 50px;
+            background-color: aliceblue;
+            color: white;
+            background-color: black;
+        }
+        table{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        tr:nth-child(even){
+            background-color: white;
+            color: black;
+        }
+        tr:nth-child(odd){
+            background-color: black;
+            color: white;
+        }
+        h2{
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .img2des .odd{
+            color: black;
+            font-size: 20px;
+            background-color: white;
+        }
+        .img2des .even{
+            color: white;
+            font-size: 20px;
+            background-color: black;
+        }
+        footer{
+            padding: 50px;
+            background-color: black;
+            color: white;
+            position: absolute;
+            top: 1121px;
+            width: 100%;
+        }
+        footer>p{
+            display: inline-block;
+            margin-right: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Career</a>
+        <a href="#">Contant Us</a>
+        <div class="logo">
+            <img src="./Assets/wikipedia.jfif" alt="LOGO" height="50px" width="50px">
+        </div>
+    </header>
+    <div class="main-div">
+        <div class="sidebar-div">
+            <div class="img1">
+                <img src="./Assets/Shivaji-Maharaj-02.jpg" alt="" height="100%" width="100%">
+            </div>
+            <div class="imgdes">
+                <table border="2px solid red">
+                    <tr>
+                        <td>
+                            "Of all the rights of women, the greatest is to be a mother." - Chhatrapati Shivaji Maharaj
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            "Freedom is a boon, which everyone has the right to receive." -Chhatrapati Shivaji Maharaj
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            "Do not think of the enemy as weak, then do not be too scared to feel too strong." -Chhatrapati Shivaji Maharaj
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            "No need to be learned from own fault. We can learn a lot from others' mistakes." -Chhatrapati Shivaji Maharaj
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            "Self-confidence provides strength and Power impart knowledge. Knowledge provides stability and stability leads to victory." -Chhatrapati Shivaji Maharaj
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            "Of all the rights of women, the greatest is to be a mother." - Chhatrapati Shivaji Maharaj
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="bodyarea-div">    
+        <div class="img2">
+            <img src="./Assets/Shivaji-Maharaj-01.jpg" alt="" width="1045px" height="500px">
+        </div>
+        <h2>Chhatrapati  Shivaji  Maharaj</h2>
+        <div class="img2des">
+            <table border="2px solid red">
+                <tr>
+                    <th class="odd">
+                        Born 
+                    </th>
+                    <td>
+                        19 February 1630
+                    </td>
+                </tr>
+                <tr>
+                    <th class="even">
+                        Died
+                    </th>
+                    <td>
+                        3 April 1680 (aged 50)
+                    </td>
+                </tr>
+                <tr>
+                    <th class="odd">
+                        Father
+                    </th>
+                    <td>
+                        Shahaji Bhonsale
+                    </td>
+                </tr>
+                <tr>
+                    <th class="even">
+                        Mother
+                    </th>
+                    <td>
+                        Jijabai Bhonsle
+                    </td>
+                </tr>
+                <tr>
+                    <th class="odd">
+                        Reign
+                    </th>
+                    <td>
+                        1664-1674
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+    
+    <div class="foot">
+        <footer>
+            <p>Developer Name: Sohel Shaikh</p>
+            <p>Developer Address: Karad</p>
+            <p>Developer Mobile No: 78945612358</p>
+        </footer>
+    </div>
+</body>
+</html>
