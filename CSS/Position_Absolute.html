@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Position Absolute</title>
+    <style>
+        .father{
+            border: 3px solid red;
+            height: 400px;
+            width: 400px;
+        }
+        .boy{
+            border: 3px solid green;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            right: 0px;
+        }
+        .imp{
+            border: 3px solid rgb(51, 0, 255);
+            height: 600px;
+            width: 600px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <section class="imp">
+        <div class="father">
+            <div class="boy"></div>
+        </div>
+    </section>
+</body>
+</html>
