@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Specificity</title>
+    <style>
+        section{
+            margin: auto;
+            background-color: gray;
+            height: 500px;
+            width: 400px;
+            padding: 50px;
+            font-size: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            color: aqua;
+        }
+        #para{
+            color: blue;
+        }
+        #para{
+            color: antiquewhite;
+        }
+        .para{
+            color: blueviolet;
+        }
+        .para2{
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Specificity</h1>
+        <p class="para para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione illo provident tenetur deserunt doloremque vero alias, odit a beatae distinctio porro iusto 
+            aliquam neque tempore reiciendis culpa necessitatibus vel dignissimos!</p>
+    </section>
+</body>
+</html>
