@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karad Hotel</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: rgb(51, 48, 48);
+        }
+        header{
+            display: flex;
+        }
+        header>div{
+            border: 1px solid;
+            background-color: rgb(162, 164, 164);
+            padding: 20px;
+            margin: 5px;
+            flex-grow: 1;
+            text-align: center;
+        }
+        section{
+            display: flex;
+            gap: 20px;
+        }
+        section>div{
+            height: 300px;
+            flex-grow: 1;
+            background-color: rgb(162, 164, 164);
+            border: 1px solid;
+        }
+        .main-img{
+            flex-grow: 2;
+        }
+        .price>div{
+            width: 100%;
+            height: 50%;
+            border: 2px solid;
+        }
+        .price p{
+            text-align: center;
+            padding-top: 50px;
+            font-size: 20px;
+        }
+        article{
+            display: flex;
+            text-align: center;
+        }
+        article>div{
+            height: 100px;
+            margin: 5px;
+            flex-grow: 1;
+            background-color: rgb(162, 164, 164);
+        }
+        .img{
+            display: flex;
+            text-align: center;
+        }
+        .img>div{
+            height: 300px;
+            flex-grow: 1;
+            margin: 5px;
+        }
+        .img_info p{
+            padding-top: 40px;
+        }
+        .img2{
+            display: flex;
+        }
+        .img2>div{
+            height: 200px;
+            width: 200px;
+            flex-grow: 1;
+            margin: 5px;
+        }
+        .img3{
+            display: flex;
+        }
+        .img3>div{
+            height: 200px;
+            width: 496px;
+            margin: 5px;
+        }
+        footer{
+            display: flex;
+            justify-content: space-around;
+        }
+        footer>div{
+            height: 200px;
+            width: 400px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>Tacos</div>
+        <div>Beers</div>
+        <div>Wines</div>
+        <div>Deserts</div>
+        <div>Reservations</div>
+    </header>
+    <section>
+        <div class="main-img">
+            <img src="./Assets/Restaurant.jfif" alt="Restaurant" width="100%" height="100%">
+        </div>
+        <div class="price">
+            <div><p><b>$1.99</b></p></div>
+            <div><p><b>$1.99</b></p></div>
+        </div>
+    </section>
+    <article>
+        <div><p>Beers</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> </div>
+        <div><p>Wines</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></div>
+        <div><p>Deserts</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></div>
+        <div><p>Tacos</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></div>
+        <div><p>Reservations<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></p></div>
+    </article>
+    <div class="img">
+        <div>
+            <img src="./Assets/Fish_dish.jfif" alt="Fish_dish" height="100%" width="100%">
+        </div>
+        <div class="img_info">
+            <p><b>Special Dish</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, quaerat?</p>
+            <button style="padding: 10px; margin-top: 30px;">Learn More</button>
+        </div>
+    </div>
+    <div class="img2">
+        <div><img src="./Assets/Fish_dish.jfif" alt="Fish_dish" height="100%" width="100%"></div>
+        <div><img src="./Assets/Beer.jfif" alt="Beer" height="100%" width="100%"></div>
+        <div><img src="./Assets/Fish_dish.jfif" alt="Fish_dish" height="100%" width="100%"></div>
+    </div>
+    <div class="img3">
+        <div><img src="./Assets/Beer.jfif" alt="Beer" height="100%" width="100%"></div>
+        <div><img src="./Assets/Fish_dish.jfif" alt="Fish_dish" height="100%" width="100%"></div>
+    </div>
+    <footer>
+        <div style="text-align: center; padding-top: 30px;">
+            <h2>Tacos</h2>
+            <h2>Beer</h2>
+            <h2>Desserts</h2>
+            <h2>Reservations</h2>
+        </div>
+        <div>
+            <img src="./Assets/Beer.jfif" alt="Beer" height="100%" width="100%">
+        </div>
+    </footer>
+</body>
+</html>
