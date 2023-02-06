@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDevlopment</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(6, 67, 129);
+            color: rgb(231, 220, 220);
+            font-size: 40px;
+        }
+        nav{
+            display: flex;
+            gap: 25px;
+            text-align: center;
+        }
+        nav>div{
+            gap: 5px;
+            width: 100px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+        }
+        section{
+            display: flex;
+        }
+        section>div{
+            width: 50%;
+            height: 400px;
+        }
+        article{
+            display: flex;
+        }
+        article>div{
+            height: 200px;
+            flex-grow: 1;
+        }
+        .it1{
+            flex-grow: 3;
+        }
+        footer{
+            background-color: rgb(6, 67, 129);
+            text-align: center;
+            color: whitesmoke;
+            text-transform: uppercase;
+            padding: 20px;
+        }
+         table{
+            width: 100%;
+            height: 100%;
+        }
+        th{
+            background-color: rgb(6, 67, 129);
+            color: whitesmoke;
+            padding: 10px;
+        }
+        td{
+            background-color: burlywood;
+            color: black;
+            font-weight: bold;
+        }
+        @media screen and (max-width:465px){
+            body{
+                background-color: yellow;
+            }
+            nav{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Web-Development
+    </header>
+    <nav>
+        <div>Home</div>
+        <div>About</div>
+        <div>Contant Us</div>
+        <div>Help</div>
+    </nav>
+    <hr>
+    <section>
+        <div><img src="./Assets/html.webp" alt="HTML" height="100%" width="100%"></div>
+        <div><img src="./Assets/css.webp" alt="CSS" height="100%" width="100%"></div>
+    </section>
+    <article>
+        <div class="it1">
+            <img src="./Assets/js.png" alt="JS" height="100%" width="400px">
+        </div>
+        <div class="it2">
+            <table>
+                <tr>
+                    <th>HTML</th>
+                    <td><p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p> </td>
+                </tr>
+                <tr>
+                    <th>CSS</th>
+                    <td><p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML</p></td>
+                </tr>
+                <tr>
+                    <th>JS</th>
+                    <td><p>JavaScript  often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.</p></td>
+                </tr>
+            </table>
+        </div>
+    </article>
+    <footer>
+        <h2>Copyright2015</h2>
+    </footer>
+
+</body>
+</html>
