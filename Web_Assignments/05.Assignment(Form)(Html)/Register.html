@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register New Member</title>
+</head>
+<body>
+    <h2>Register New Member</h2>
+
+    <form action="#" method="post">
+
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" id="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <label for="phone">Mobile No:</label>
+        <input type="number" name="number" id="number" required><br><br>
+
+        <label for="Gender">Gender:</label>&nbsp; &nbsp;
+        <label for="male">Male</label> 
+        <input type="radio" name="gender" id="male" value="male" required>
+        
+        <label for="female">Female:</label>
+        <input type="radio" name="gender" id="female" value="female" required>
+
+        <label for="other">Other:</label>
+        <input type="radio" name="gender" id="other" value="other" required><br><br>
+        
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" cols="30" rows="10" required></textarea><br><br>
+
+        <label for="designation">Designation:</label>
+        <select name="designation" id="designation" required>
+            <option value="principal">Principal</option>
+            <option value="teacher">Teacher</option>
+            <option value="staff">Staff</option>
+        </select><br><br>
+
+        <label for="department">Department:</label >
+        <select name="department" id="department" required>
+            <option value="arts">Arts</option>
+            <option value="commerce">Commerce</option>
+            <option value="science">Science</option>
+            <option value="account">Account</option>
+        </select><br><br>
+
+        <input type="submit"> &nbsp; &nbsp;
+        <input type="reset">
+
+    </form>
+</body>
+</html>
