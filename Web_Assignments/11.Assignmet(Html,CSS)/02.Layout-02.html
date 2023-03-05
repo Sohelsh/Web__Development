@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header>div{
+            display: inline-block;
+            padding: 4px;
+            width: 18.5%;
+            margin: 5px;
+            text-align: center;      
+            font-weight: bold;
+            color: white;
+            background-color: rgb(71, 74, 80);
+        }
+        main{
+            margin: 6px;
+            position: relative;
+        }
+        main>div{
+            display: inline-block;
+        }
+        main>.headline{
+            height: 250px;
+            width: 60%;
+            text-align: center;
+            background-color: rgb(29, 31, 34);
+            color: white;     
+        }
+        .price{
+            position: sticky;
+            width: 39%;
+            position: absolute;
+        }
+        .price-1>div{
+            height: 122px;
+            width: 100%;
+            margin: 6px;        
+            font-size: 40px;
+            color: white;
+            text-align: center;  
+            background-color: rgb(44, 45, 46);
+        }
+        article>div{
+            display: inline-block;
+            height: 120px;
+            width: 19%;
+            margin: 5px;
+            text-align: center;      
+            font-weight: bold;
+            color: black;
+            padding-top: 10px;
+            background-color: rgb(79, 80, 81);
+        }
+        .img{
+            padding: 10px;
+            background-color: rgb(79, 80, 81);
+            width: 97%;
+            margin: 10px;
+        }
+        .img>div{
+            height: 300px;
+            width: 49.5%;
+            display: inline-block;
+        }
+        .img_info{
+            text-align: center;
+            position: relative;
+        }
+        .img_info2{
+            position: absolute;
+            padding: 50px;
+            font-size: 25px;
+        }
+        section{
+            background-color: rgb(79, 80, 81);
+        }
+        section>div{
+            display: inline-block;
+            height: 200px;
+            width: 31%;
+            margin: 10px;
+        }
+        footer{
+            position: relative;
+            background-color: rgb(203, 206, 209);
+        }
+        footer>div{
+            display: inline-block;
+            height: 200px;
+            width: 40%;
+            margin: 10px;
+        }
+        .foot{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>Beers</div>
+        <div>Wines</div>
+        <div>Deserts</div>
+        <div>Tacos</div>
+        <div>Reservations</div>
+    </header>
+    <main>
+        <div class="headline">
+            <p style="padding-top: 100px; font-size: 50px; position: absolute; padding-left: 200px;"><b>Karad Restaurant</b></p>
+        </div>
+        <div class="price">
+            <div class="price-1">
+                <div><p><b>$1.99
+                </b></p><p>Tacos</p></div>
+                <div><p><b>$1.99</b></p><p>Beers</p></div>
+            </div>   
+        </div>
+    </main>
+    <article>
+        <div><p>Beers</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> </div>
+        <div><p>Wines</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></div>
+        <div><p>Deserts</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></div>
+        <div><p>Tacos</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></div>
+        <div><p>Reservations<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></p></div>
+    </article>
+    <div class="img">
+        <div class="img1">
+            <img src="./Assets/Fish_dish.jfif" alt="Fish_dish" height="100%" width="100%">
+        </div>
+        <div class="img_info">
+            <div class="img_info2">
+                <p><b>Special Dish</b></p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, quaerat?</p>
+                <button style="padding: 10px; margin-top: 30px;">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div><img src="./Assets/Beer.jfif" alt="Beer" height="100%" width="100%"></div>
+        <div><img src="./Assets/Beer.jfif" alt="Beer" height="100%" width="100%"></div>
+        <div><img src="./Assets/Beer.jfif" alt="Beer" height="100%" width="100%"></div>
+    </section>
+    <section>
+        <div><img src="./Assets/Beer.jfif" alt="Beer" height="100%" width="100%"></div>
+        <div><img src="./Assets/Beer.jfif" alt="Beer" height="100%" width="100%"></div>
+    </section>
+    <footer>
+        <div style="  margin-left: 100px;">
+            <h2>Tacos</h2>
+            <h2>Beer</h2>
+            <h2>Desserts</h2>
+            <h2>Reservations</h2>
+        </div>
+        <div  class="foot"><img src="./Assets/Beer.jfif" alt="Beer" height="100%" width="100%"></div>
+    </footer>
+</body>
+</html>
