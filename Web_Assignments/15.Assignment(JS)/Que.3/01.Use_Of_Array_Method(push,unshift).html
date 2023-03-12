@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="veg"></h2>
+    <button onclick="AddVeg()">Add More</button>
+    <script>
+        const Vegtables = ["Cucumber","Pumpkin","Tomato"];
+
+        document.getElementById("veg").innerHTML = Vegtables;
+          
+        function AddVeg()
+        {
+            Vegtables.unshift("Potato","Onion","Peppers"); //First Postion
+            Vegtables.push("Corn","Green Peas","String Beans"); // Last Postion
+
+            document.getElementById("veg").innerHTML = Vegtables;
+        }
+      
+
+    </script>
+</body>
+</html>
