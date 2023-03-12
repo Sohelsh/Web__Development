@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment</title>
+</head>
+<body>
+    <h1 id="veg"></h1>
+    <h2 id="veg1"></h2>
+    <h2 id="veg2"></h2>
+    <h2 id="veg3"></h2>
+   
+    <script>
+        const Vegtables = ["Potato","Onion","Peppers","Cucumber","Pumpkin","Tomato","Corn","Green Peas","String Beans"];
+        document.getElementById("veg").innerHTML = Vegtables;
+        
+        const myveg1 = Vegtables.slice(3,6);
+        document.getElementById("veg1").innerHTML =  myveg1;
+
+        const myveg2 = Vegtables.slice(7,9);
+        document.getElementById("veg2").innerHTML =  myveg2;
+
+        const myveg3 = Vegtables.slice(3,9);
+        document.getElementById("veg3").innerHTML =  myveg3;
+
+   </script>
+</body>
+</html>
