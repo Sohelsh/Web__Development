@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment</title>
+</head>
+<body>
+    <h1 id="veg"></h1>
+    <script>
+         const Vegtables = ["Potato","Onion","Peppers","Cucumber","Pumpkin","Tomato","Corn","Green Peas","String Beans"];
+
+         document.getElementById("veg").innerHTML = Vegtables;
+
+         Vegtables.splice(1,0,"Brinjal","");
+         document.getElementById("veg").innerHTML = Vegtables;
+
+         Vegtables.splice(5,0,"carrot");
+         document.getElementById("veg").innerHTML = Vegtables;
+
+
+    </script>
+</body>
+</html>
