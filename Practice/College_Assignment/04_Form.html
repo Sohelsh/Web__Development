@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+   <style>
+     div{
+				margin:auto;
+				
+				width:40%;
+			padding:30px;
+			background-color:#f2f2f2;
+				}
+		input[type=text],input[type=number]{
+			border-radius:5px;
+			padding:10px;
+			margin:10px;
+width:100%;
+         }
+        input[type=submit]{
+	width:50%;
+}
+ input[type=submit]:hover{
+       background-color:red;
+	color:blue;
+}
+	 </style>
+</head>
+<body>
+	<div>
+	<form>
+		<label for="Nm">Enter Full Name:</label>
+		<input type="text" id="Nm" name="Nm"><br>
+
+		<label for="Mb">Enter Mobile Number:</label>
+		<input type="number" id="Mb" name="Mb"> <br>
+		
+		<input type="password">
+		<label for="city">Select City</label>
+            <select>
+			<option>Karad</option>
+			<option>Mumbum</option>
+		</select> <br><br> 
+            <label for="city">Write Feedback</label>
+            <textarea rows="10"></textarea> <br>
+            
+		<label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+ 
+        	<label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female"> 
+<br>        
+    		<label for="lan">Language :</label>
+		<input type="checkbox" id="lan" value="">
+<label for="lan">Language :</label>
+		<input type="checkbox" id="lan" value="">
+<label for="lan">Language :</label>
+		<input type="checkbox" id="lan" value="">
+         <br>
+     <input type="submit">
+	</form>
+	</div>
+</body>
+</html>
